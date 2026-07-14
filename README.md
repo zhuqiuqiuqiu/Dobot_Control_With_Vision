@@ -21,10 +21,10 @@ https://github.com/user-attachments/assets/2e7eb837-582e-4206-bf59-24fec4fd4f99.
 # 程序运行
 ```
 进入：
-dobot_contrl_with_vision\Dobot_Control_With_Vision\Dobot-code\new_maincode\TCP-IP-4Axis-Python-main
+Dobot-code\new_maincode\TCP-IP-4Axis-Python-main
 运行：
 new_main_code
 视觉检测权重：
-dobot_contrl_with_vision\Dobot_Control_With_Vision\Dobot-code\new_maincode\TCP-IP-4Axis-Python-main\best.pt
+Dobot-code\new_maincode\TCP-IP-4Axis-Python-main\best.pt
 数据集、标定转换（使用20mm的棋盘进行手眼标定）
 ```
