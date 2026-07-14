@@ -1,3 +1,11 @@
 # 四轴机械臂联动视觉检测进行分拣、装配
 使用越疆的四轴机器人，视觉采用yolov11。其中的姿态校正部分还不是很明白，目前属于有点懵逼的状态，由于J1+J4=R，用于姿态校正旋转的检验项。
-<video src="Dobot-code/pic_video/video.mp4" width="100%" controls="controls"></video>
+
+初期的视频。由于最后比赛的时候没有录像，因此没能放上最后的成熟展示。
+
+https://github.com/user-attachments/assets/2e7eb837-582e-4206-bf59-24fec4fd4f99.mp4
+
+# 机械臂控制
+主要通过DOBOT提供的接口，通过Python实现TCP通信，发送信号给机器人进行控制。
+# 图形化控制界面
+整个界面的搭建主要使用：Tkinter 库
