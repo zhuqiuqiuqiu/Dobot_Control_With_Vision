@@ -1,0 +1,10 @@
+path: E:\Dobot-code\YOLOV11\dataset
+train: images/train
+val: images/val
+names:
+  0: GPS
+  1: WIFI
+  2: Square_red
+  3: Square_yellow
+  4: Square_silver
+  5: CHIP

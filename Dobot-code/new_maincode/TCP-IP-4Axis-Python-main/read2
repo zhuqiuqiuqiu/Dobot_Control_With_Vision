@@ -1,0 +1,8 @@
+现在我的控制机械臂 通过视觉抓取的程序已经写的差不多了。
+Python\AreaScanCamera\BasicDemo\BasicDemo.py   是我的调用usb摄像头的代码，
+new_main_code.py  是我的控制机械臂 以及部分视觉识别代码
+我的新要求是，根据BasicDemo 里面的调用usb摄像头拍照的代码，通过new_main_code的的yolo识别出具体位置后，
+发送图像坐标给机器人，这个坐标经过了true.xml 这个标定转换文件，变成机械臂的坐标，然后控制机械臂去这个位置 吸取。
+要求：不要改动现有的文件，帮我重新生成整和的机械臂与视觉控制的配合代码，结合BasicDemo 和  new_main_code
+，输出成新的代码525main.py。
+BasicDemo用来获取usb摄像头照片的。
